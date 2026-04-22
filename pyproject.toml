@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "masras"
+version = "0.0.0"
+description = "Mission Assurance Stochastic Resilience Assessment Simulator"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Your Name" }
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
